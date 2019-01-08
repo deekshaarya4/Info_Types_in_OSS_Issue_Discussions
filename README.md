@@ -19,6 +19,12 @@ It comprises of three main folders: _data_, _experiments_ and _results_. The com
 
 3. **_results_**: Is the folder containing the results of the experiments performed.
 
+Two additional folders exist:
+
+1. **_docker_**: This folder contains the compressed docker image with the required environment as well as the Dockerfile used to build this image
+
+2. **_nltk_data_**: This contains the wordnet corpus required by the code to lemmatize words
+
 ## Instructions for Reproducibility:
 1. Run all cells, in order, in *preprocess_data.ipynb*
 2. Run all cells, in order, in *transform_features.ipynb*
