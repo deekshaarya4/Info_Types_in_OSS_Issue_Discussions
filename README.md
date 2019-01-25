@@ -15,7 +15,9 @@ It comprises of three main folders: _data_, _experiments_ and _results_. The com
 2. **_experiments_**: This folder contains all the code used to perform the experiments presented in the paper.
   * **preprocess.ipynb** - is the first step. It reads the annotations from the xlsx file exported from _Atlas.ti_ and extracts all conversational feature information of each sentence and stores it in *all\_data.pkl* and *data\_by_document.pkl*.
   * **transform_features.ipynb** - performs transformation on the conversational features such as converting categorical columns to one-hot-encoding and converting datetime features to numerically comparable values
-  * **logistic\_regression/random_forest** - these folders contain each of the experiments presented in the corresponding paper.
+  * **logistic_regression/random_forest** - these folders contain each of the experiments presented in the corresponding paper.
+
+All the files in this folder are Jupyter notebooks with the extension *.ipynb*. Each file comprises of multiple *cells* containing code. These *cells* encapsulate different steps in the flow of code to enable observation of intermediate results. More about Jupyter can be found on this [Jupyter page](https://jupyterlab.readthedocs.io/en/latest/).
 
 3. **_results_**: Is the folder containing the results of the experiments performed.
 
@@ -26,6 +28,9 @@ Two additional folders exist:
 2. **_nltk_data_**: This contains the wordnet corpus required by the code to lemmatize words
 
 ## Instructions for Reproducibility:
+
+To set up the environment for this work, refer to the file *INSTALL.md*.
+
 1. Run all cells, in order, in *preprocess_data.ipynb*
 2. Run all cells, in order, in *transform_features.ipynb*
 3. Enter into either of the algorithm folders (*logistic_regression* or *random_forest*), and run all cells (in order) of the experiment you wish to reproduce.

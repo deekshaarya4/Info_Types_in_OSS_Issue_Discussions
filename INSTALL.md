@@ -1,6 +1,8 @@
-# INSTALL
+# Installing the Docker Environment
 
-The environment for this artifact has been configured into a docker image and is available on docker hub:  [deekshaarya4/jupyter-scipy-nlp](https://cloud.docker.com/u/deekshaarya4/repository/docker/deekshaarya4/jupyter-scipy-nlp). Hence, this artifact assumes a running docker engine exists and that users are at least moderately familiar with docker. More information on downloading and getting started with docker can be found at: https://docs.docker.com/install/.
+The environment for this artifact has been configured into a docker image and is available on docker hub:  [deekshaarya4/jupyter-scipy-nlp](https://cloud.docker.com/u/deekshaarya4/repository/docker/deekshaarya4/jupyter-scipy-nlp). Hence, this installation procedure assumes a running docker engine exists and that users are at least moderately familiar with docker. More information on downloading and getting started with docker can be found at: https://docs.docker.com/install/.
+
+If you would like to configure the environment separately, instead, the list of requirements are available [here](#environment-requirements).
 
 The data, code and results are provided externally and to be mounted into the image. This is done in order to allow easy interactive access to them, if necessary.
 
@@ -57,3 +59,15 @@ This setup and test has been additionally verified:
 2. using _Docker Toolbox (engine 18.03.0-ce)_ on _Windows 10.0.17134.523 (Family)_
 
 3. using _Docker (version 1.13.1)_ on _Ubuntu 16.04.4_
+
+# Environment Requirements
+
+If you do not wish to use the configured docker environment, please find below the list of environment and tool requirements to run the experiments in this repository:
+1. Python 3.6
+
+2. Jupyter notebook
+
+3. Python Library Dependencies:
+    `imbalanced-learn`, `matplotlib`, `nltk`, `numpy`, `openpyxl`, `pandas`, `scikit-learn`, `scipy`, `spacy`, `xlrd`
+
+4. The spacy English model: `python -m spacy download en`
