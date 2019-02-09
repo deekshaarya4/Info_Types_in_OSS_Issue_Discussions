@@ -10,6 +10,6 @@ The contents of this artifact have been explained in detail in the file *README.
 
 The code itself is written in jupyter notebooks - allowing transparency of outputs and results at every stage. We have attempted to clarify using natural language such as headings and comments, the functionality that different pieces of the code provide. The cells in the jupyter notebook correspond to individual codeblocks which correlate in an orderly manner. The authors of this work have attempted to improve readability of the code in this manner.
 
-The data and code is all available in a public Github repository at: <LINK>.
+The data and code is all available in a public Github repository at: https://github.com/deekshaarya4/Info_Types_in_OSS_Issue_Discussions.
 
 With the details presented in the paper, and the transparency of data and code in this artifact, we believe this work can be easily reproduced and verified by fellow researchers without any persisting ambiguities. With this artifact, we hope to encourage colleagues to build upon this work, allowing for improved Information Identification systems to aid OSS stakeholders.
