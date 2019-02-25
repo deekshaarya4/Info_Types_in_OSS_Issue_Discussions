@@ -1,5 +1,7 @@
 # README
 
+[![DOI](https://zenodo.org/badge/164007006.svg)](https://zenodo.org/badge/latestdoi/164007006)
+
 This artifact contains the data and code used in the paper _Analysis and Detection of Information Types ofOpen Source Software Issue Discussions_.
 
 It comprises of three main folders: _data_, _experiments_ and _results_. The components of which are as follows:
